@@ -1,0 +1,8 @@
+[package]
+name = "rinux-workflow-tester"
+version = "0.0.1"
+
+[dependencies]
+rinuxcore = { path = "./rinuxcore" }
+config = { path = "./config" }
+std3 = { path = "./std3" }
