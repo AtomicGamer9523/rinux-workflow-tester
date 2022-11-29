@@ -15,6 +15,7 @@ use rinuxcore::BootInfo;
 #[rinuxcore::main]
 fn kernel_main(boot_info: &'static BootInfo) -> ! {
     rinuxcore::init(&boot_info);
+    loop {}
 }
 
 #[panic_handler]
